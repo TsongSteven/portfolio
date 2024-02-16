@@ -1,151 +1,21 @@
-
-
-body{
-/*
-	background-color: #212121 !important;
-	color: #878d8d; 
-	*/
-	
-} 
-._font{
-	font-family: Roboto, monospace;
-
+body {
+    font-family:'Jost', sans-serif;
+    line-height: 30px;
+    margin: 0;
+    text-align: left;
+    font-weight: 400;
 }
 
-._navbar_main{
-	box-shadow: none !important;
+.text-indigo{
+    color: #1A237E;
 }
-._toggle_btn_top{
-	display: block !important;
+.skill-card{
+    padding: 20px;
+    background-color: #1A237E;
 }
-._wrapper{
-	margin-top: 10px;
+.skill-card h3{
+    color: white;
 }
-._side_menu_li{
-	background-color: #393836;
-}
-._side_menu{
-	background-color: #393836;
-
-	position: fixed;
-	top:0;
-	bottom: 0;
-	left: 0;
-	margin-top: 56px;
-	width: 200px;
-	//border: 1px solid red;
-	transition:all ease 0.25s; 
-	transform:translateX(-100%);
-	z-index: 2000;
-}
-.active ._side_menu{
-	transform: translateX(0px);
-}
-.main_section{
-	width: 100%;
-	margin-left: 0px;
-	transition: all ease 0.25s;
-}
-._side_bar .nav-link{
-	padding-left: 10px;
-}
-
-
-@media (min-width: 992px){
-
-	._side_menu{
-		transform: translateX(0);
-	}
-	.main_section{
-		margin-left: 200px;
-	}
-   .active > ._side_menu{
-
-		width: 80px;
-	}
-
-	.active ._side_bar{
-		margin-left: 0;
-	}
-
-	.active .nav-link{
-
-		text-align: center;
-	}
-
-	.active .icon{
-		margin-right: 0;
-	}
-	.active ._text{
-		display: none;
-	}
-	.active > .main_section{
-		margin-left: 80px;
-	}
-}
-
-.nav-link{
-	display: block;
-	white-space: nowrap;
-}
-.nav-link > i{
-	margin-right: 10px;
-	font-size: 20px;
-	vertical-align: middle;
-	height: 25x;
-	width: 25px;
-	//border: 2px solid red;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.nav-link:hover{
-	background-color: #212121 !important;
-
-}
-
-
-.t-grid .t-grid-4 a:not(:last-child){
- border-right: 1px solid #ededed;
-}
-/* Cropper */
-
-img {
-  max-width: 100%; /* This rule is very important, please do not ignore this! */
-}
-
-#canvas {
-  min-height: 300px;
-  width: 100%;
-  background-color: #ffffff;
-  cursor: default;
-  border: 1px solid black;
-	
-}
-#result {
-  min-height: 200px;
-  width: 100%;
-  background-color: #ffffff;
-  cursor: default;
-  border: 1px solid black;
-}
-.cropper-bg {
-    background-image: none !important;
-	background-color: white !important;
-}
-.btn-upload{
-	width: 100%;
-	border-radius: 0;
-	margin-left: 0 !important;
-	margin-right: 0 !important;
-}
-.btn-task{
-	border-radius: 0;
-	margin-left: 0 !important;
-	margin-right: 0 !important;	
-}
-
-.g-t{
-	overflow: hidden;
+.text-justify{
+    text-align: justify;
 }
